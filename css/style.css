@@ -239,6 +239,10 @@ background-color: var(--accent-color);
     display: flex;
 }
 
+.about {
+padding-bottom: 0;
+}
+
 .about-pre-title {
     font-weight: 700;
     font-size: 14px;
@@ -304,7 +308,7 @@ margin-bottom: 50px;
 .masters-title {
     text-align: center;
 color: var(--title-color);
-padding-bottom: 50px;
+margin-bottom: 50px;
 }
 
 .card-content {
@@ -332,6 +336,7 @@ color: var(--main-color);
     display:flex;
     flex-wrap: wrap;
     margin-top: 0px;
+    margin-bottom: 0;
 }
 
 .nav-item:not(:last-child) {
