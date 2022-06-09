@@ -40,7 +40,7 @@ section {
 .list {
     list-style: none;  
     padding-left: 0;
-    margin-left: 0;
+    margin: 0;
 }
 
 .link {
@@ -136,10 +136,8 @@ line-height: 1.16;
 .header {
     padding-top: 24px;
     padding-bottom: 25px;
-    border: 1px solid #ECECEC;
-    margin: 0;
-    
-}
+    border-bottom: 1px solid #ECECEC;
+    }
 
 .header-item:not(:last-child) {
     margin-right: 50px;
@@ -300,9 +298,8 @@ margin-bottom: 50px;
     border-radius: 0px 0px 4px 4px;
     }
 
-    .masters-item {
-        flex-basis: calc((100%-30px) / 4);
-        margin-left: 30px;
+    .masters-item:not(:last-child) {
+        margin-right: 30px;
     }
 
 .masters-title {
@@ -312,7 +309,8 @@ margin-bottom: 50px;
 }
 
 .card-content {
-    padding: 30px;
+    padding: 30px 0;
+    text-align: center;
 }
 
 .masters-item-title {
